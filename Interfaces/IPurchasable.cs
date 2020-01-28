@@ -4,5 +4,8 @@ namespace vending.Interfaces
   {
     public float Price { get; set; }
     public string Title { get; set; }
+
+
+    string GetPurchasableItems();
   }
 }
