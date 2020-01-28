@@ -12,5 +12,15 @@ namespace vending.Models
     {
       return ($"{Title} - {Calories} -- {Price}");
     }
+
+
+
+
+    public Frozen(string title, int calories, float price)
+    {
+      Title = title;
+      Calories = calories;
+      Price = price;
+    }
   }
 }

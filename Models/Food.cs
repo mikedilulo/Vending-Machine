@@ -12,5 +12,16 @@ namespace vending.Models
     {
       return ("${Title} - {Type} -- {Price}");
     }
+
+
+
+
+
+    public Food(string title, string type, float price)
+    {
+      Title = title;
+      Type = type;
+      Price = price;
+    }
   }
 }

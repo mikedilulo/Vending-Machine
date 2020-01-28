@@ -12,5 +12,14 @@ namespace vending.Models
     {
       return ($"{Title} - {SweetnessLevel} -- {Price}");
     }
+
+
+
+    public Candy(string title, int sweetnessLevel, float price)
+    {
+      Title = title;
+      SweetnessLevel = sweetnessLevel;
+      Price = price;
+    }
   }
 }

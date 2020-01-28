@@ -12,5 +12,13 @@ namespace vending.Models
     {
       return ($"{Title} - {ForDevice} -- {Price}");
     }
+
+
+    public Electronics(string title, string forDevice, float price)
+    {
+      Title = title;
+      ForDevice = forDevice;
+      Price = price;
+    }
   }
 }
