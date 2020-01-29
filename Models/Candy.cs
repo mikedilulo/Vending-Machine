@@ -10,7 +10,7 @@ namespace vending.Models
 
     public string GetPurchasableItems()
     {
-      return ($"{Title} - {SweetnessLevel} -- {Price}");
+      return ($"{Title} - {SweetnessLevel} -- ${Price}");
     }
 
 

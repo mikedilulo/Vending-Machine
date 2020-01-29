@@ -6,6 +6,7 @@ namespace vending.Models
   class Machine
   {
     public List<IPurchasable> Items { get; set; } = new List<IPurchasable>();
+    public float Credit { get; set; } = 0.00f;
 
 
 
