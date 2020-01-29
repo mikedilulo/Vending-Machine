@@ -5,7 +5,7 @@ namespace vending.Models
 {
   class Machine
   {
-    List<IPurchasable> Items { get; set; } = new List<IPurchasable>();
+    public List<IPurchasable> Items { get; set; } = new List<IPurchasable>();
 
 
 

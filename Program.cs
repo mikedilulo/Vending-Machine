@@ -1,12 +1,14 @@
 ﻿using System;
+using vending.Controllers;
 
 namespace vending
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      VendingController vc = new VendingController();
+      vc.Run();
     }
+  }
 }
